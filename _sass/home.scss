@@ -1,0 +1,49 @@
+@import "bourbon/bourbon";
+
+$padding-large: 20%;
+$padding-small: 5%;
+$padding-x-small: 3%;
+
+%padding-regular {
+  padding: $padding-small $padding-large;
+  @media (max-width: 1000px) {
+    padding: $padding-small * 1.5 $padding-large / 1.6;
+  }
+}
+.call-out {
+  @extend %padding-regular;
+  background-color: $background-color;
+  background-size: cover;
+  font-size: 1.2em;
+  text-align: center;
+  color: #000;
+}
+.call-out p:last-child {
+  margin-bottom: 0;
+}
+.site-footer {
+  text-align: center;
+  color: lighten($text-color, 50%);
+}
+
+$tag-color:     #6a9fb5;
+.post-tag {
+  display: inline-block;
+  background: rgba($tag-color, 0.15);
+  padding: 0 .5rem;
+  margin-right: .5rem;
+  border-radius: 4px;
+  color: $tag-color;
+  font-size: 90%;
+  &:before {
+    content: "\f02b";
+	font-family: FontAwesome;
+    padding-right: .5em;
+  }
+  &:hover {
+    text-decoration: none;
+    background: $tag-color;
+    color: $text-color;
+  }
+  @include transition(all .1s ease-in-out);
+}

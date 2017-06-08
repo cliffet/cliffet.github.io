@@ -5,21 +5,13 @@ category: dev
 tags: [misc]
 ---
 
-## blog 템플릿 fork
-
-[type-theme](https://github.com/rohanchandra/type-theme) 프로젝트 fork  
-그리고 fork된 github 프로젝트 Settings에서 프로젝트 이름을 [github계정명].github.io로 변경  
-
-## 로컬 개발 머신
-```
-* fork된 프로젝트 clone  
-* ruby 설치  
-* gem install jekyll  
-* bundle install  
-```
+## github pages 생성하기
+깃허브 페이지 생성과정은 [여기](https://help.github.com/categories/customizing-github-pages/)를 참조
 
 ## 로컬 테스트
- jekyll serve  
+```sh
+jekyll serve  
+```
  http://localhost:4000  
 
 ## 포스팅 작업
@@ -27,7 +19,20 @@ tags: [misc]
  로컬 테스트  
  commit & push (or sync)  
  
-## bourbon 설치
- gem install bourbon  
- bourbon install --path _sass  
- 
+## 부록
+### 태그 기능 추가하기
+bourbon 설치  
+```sh
+gem install bourbon  
+bourbon install --path _sass  
+``` 
+[tag](http://codinfox.github.io/blog/)
+
+
+### jekyll minima theme
+[github](https://github.com/jekyll/minima)
+[demo](https://jekyll.github.io/inima/)
+[jekyll](https://jekyllrb.com/)
+
+### github markdown cheatsheet
+<https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet>

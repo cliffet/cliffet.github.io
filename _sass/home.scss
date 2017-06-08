@@ -47,3 +47,6 @@ $tag-color:     #6a9fb5;
   }
   @include transition(all .1s ease-in-out);
 }
+a:hover {
+  color: $brand-color;
+}

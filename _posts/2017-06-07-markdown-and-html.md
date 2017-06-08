@@ -15,9 +15,9 @@ jekyll serve
  http://localhost:4000  
 
 ## 포스팅 작업
- 포스트 추가  
- 로컬 테스트  
- commit & push (or sync)  
+* 포스트 추가  
+* 로컬 테스트  
+* commit & push (or sync)  
  
 ## 부록
 ### 태그 기능 추가하기
@@ -26,13 +26,13 @@ bourbon 설치
 gem install bourbon  
 bourbon install --path _sass  
 ``` 
-[tag](http://codinfox.github.io/blog/)
+[Using tags without plugins](http://codinfox.github.io/blog/)
 
 
 ### jekyll minima theme
-[github](https://github.com/jekyll/minima)
-[demo](https://jekyll.github.io/inima/)
-[jekyll](https://jekyllrb.com/)
+* [minima theme github](https://github.com/jekyll/minima)
+* [minima theme demo](https://jekyll.github.io/minima/)
+* [jekyll](https://jekyllrb.com/)
 
 ### github markdown cheatsheet
 <https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet>

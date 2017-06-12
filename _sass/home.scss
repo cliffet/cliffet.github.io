@@ -50,3 +50,16 @@ $tag-color:     #6a9fb5;
 a:hover {
   color: $brand-color;
 }
+
+.wrapper {
+  width: 940px;
+  margin: 0 auto;
+  max-width: 100%;
+}
+.post-date {
+  display:inline-block;
+  font-size: 80%;
+  color: $tag-color;
+  margin: 0;
+  padding: 0;
+}

@@ -2,7 +2,7 @@
 layout: post
 title: Jekyll & github를 이용한 블로그 준비 과정
 category: dev
-tags: [misc]
+tags: [misc, web]
 ---
 
 ## github pages 생성하기
@@ -26,10 +26,11 @@ bourbon 설치
 gem install bourbon  
 bourbon install --path _sass  
 ``` 
-[Using tags without plugins](http://codinfox.github.io/blog/)
+[Using tags without plugins](http://codinfox.github.io/dev/2015/03/06/use-tags-and-categories-in-your-jekyll-based-github-pages/)
 
 
 ### jekyll minima theme
+* [Github Pages supporting theme](https://pages.github.com/themes/)
 * [minima theme github](https://github.com/jekyll/minima)
 * [minima theme demo](https://jekyll.github.io/minima/)
 * [jekyll](https://jekyllrb.com/)

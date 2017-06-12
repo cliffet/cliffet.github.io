@@ -24,6 +24,7 @@ header_text: >
     <p>blog header</p>
 footer_text: >
    Powered by Github theme 'minima'
+tag_page: "/blog/tags"
 
 # Build settings
 markdown: kramdown
